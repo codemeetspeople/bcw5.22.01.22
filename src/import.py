@@ -1,3 +1,5 @@
+# pragma: no cover
+
 # import tools.math
 #
 # result = tools.math.my_sum(5, 10)

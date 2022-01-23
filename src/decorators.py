@@ -19,5 +19,5 @@ def hello2():
     print("Hello, world2!")
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     hello2()

@@ -17,7 +17,7 @@ def coffee_fabric(coffee_type):
     return coffee_maker
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     m1 = coffee_fabric('espresso')
     m2 = coffee_fabric('americano')
     m3 = coffee_fabric('latte')

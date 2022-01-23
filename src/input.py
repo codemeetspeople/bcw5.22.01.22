@@ -18,6 +18,6 @@ def max_python_style():
     print(max(map(int, data)))
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     # max_c_style()
     max_python_style()

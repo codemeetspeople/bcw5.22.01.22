@@ -41,5 +41,8 @@ class Point:
         self._y = float(value)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     point = Point(10, 15)
+    point2 = Point()
+
+    print()

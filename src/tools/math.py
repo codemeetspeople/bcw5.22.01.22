@@ -6,5 +6,5 @@ def multiply(x, y):
     return x * y
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     print(my_sum(10, 12))

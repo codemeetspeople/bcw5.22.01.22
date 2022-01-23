@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     # for loop
     # for i in range(0, 10, 2):
     #     print(i)
