@@ -1,11 +1,3 @@
-def increment(x):
-    return x + 1
-
-
-def pow2(x):
-    return x ** 2
-
-
 def handler(func, sequence):
     result = []
 
@@ -18,11 +10,11 @@ def handler(func, sequence):
 if __name__ == '__main__':  # pragma: no cover
     array = [1, 2, 3, 4, 5]
 
-    # incremented = handler(increment, array)
-    # powered = handler(pow2, array)
+    # incremented = handler(lambda x: x + 1, array)
+    # powered = handler(lambda x: x ** 2, array)
 
-    incremented = list(map(increment, array))
-    powered = list(map(pow2, array))
+    incremented = list(map(lambda x: x + 1, array))
+    powered = list(map(lambda x: x ** 2, array))
 
     print(array)
     print(incremented)
