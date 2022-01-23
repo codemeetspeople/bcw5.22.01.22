@@ -6,10 +6,6 @@ def multiply(x, y):
     return x * y
 
 
-# def say_hello(name='caiman'):
-#     print()
-
-
 def coffee_fabric(coffee_type):
     def coffee_maker():
         print(f'This machine makes {coffee_type}')
@@ -17,11 +13,10 @@ def coffee_fabric(coffee_type):
     return coffee_maker
 
 
-if __name__ == '__main__':  # pragma: no cover
-    m1 = coffee_fabric('espresso')
-    m2 = coffee_fabric('americano')
-    m3 = coffee_fabric('latte')
+def function(x, y, *args, color='black', **kwargs):
+    print(args)
+    print(kwargs)
 
-    m1()
-    m2()
-    m3()
+
+if __name__ == '__main__':  # pragma: no cover
+    function(1, 2, 3, 4, 5, color='black', user='root', value=42)
